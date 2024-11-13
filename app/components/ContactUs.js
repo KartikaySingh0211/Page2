@@ -41,13 +41,13 @@ function ContactUs() {
 							className="w-1/2 p-2  border-gray-600 border bg-[#d9d9d9] rounded-3xl pl-5 focus:outline-none focus:border-gray-600"
 						/>
 					</div>
-					<div class="relative">
+					<div className="relative">
 						<input
 							type="email"
 							placeholder="Your email"
-							class="w-full pl-10 py-2 border border-gray-600 bg-[#d9d9d9] rounded-3xl focus:outline-none focus:border-gray-600"
+							className="w-full pl-10 py-2 border border-gray-600 bg-[#d9d9d9] rounded-3xl focus:outline-none focus:border-gray-600"
 						/>
-						<span class="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-400">
+						<span className="absolute top-1/2 left-4 transform -translate-y-1/2 text-gray-400">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								class="h-5 w-5"
@@ -59,8 +59,8 @@ function ContactUs() {
 							</svg>
 						</span>
 					</div>
-					<div class="relative">
-						<div class="absolute left-4 top-1/2 transform -translate-y-1/2 text-black">
+					<div className="relative">
+						<div className="absolute left-4 top-1/2 transform -translate-y-1/2 text-black">
 							<select className="bg-inherit focus:outline-none">
 								<option value="India">+91</option>
 								<option value="USA">+1</option>
@@ -72,7 +72,7 @@ function ContactUs() {
 						<input
 							type="tel"
 							placeholder="Phone number"
-							class="w-full pl-20 pr-4 py-2 border-gray-600 border bg-[#d9d9d9] rounded-3xl focus:outline-none focus:border-gray-600"
+							className="w-full pl-20 pr-4 py-2 border-gray-600 border bg-[#d9d9d9] rounded-3xl focus:outline-none focus:border-gray-600"
 						/>
 					</div>
 					<div className="relative">

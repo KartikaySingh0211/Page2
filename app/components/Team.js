@@ -1,11 +1,5 @@
 "use client";
 import React, { useRef } from "react";
-import {
-	Card,
-	CardContent,
-	CardHeader,
-	CardTitle,
-} from "../components/ui/card";
 import { cards } from "../constants/index";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import ProfileCard from "./ui/ProfileCard";
