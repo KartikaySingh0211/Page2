@@ -1,5 +1,5 @@
 // app/layout.js
-import NavBar from "./components/NavBar";
+import NavBar from "./components/ui/NavBar";
 import "./globals.css"; // Make sure this imports your Tailwind styles
 import { Inter } from "next/font/google";
 
